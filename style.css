@@ -1,0 +1,50 @@
+.btn{
+    color:#0A3871;
+    color: #E5E5E5;/*fondo*/
+    color: #343A40;/*letra gris*/
+    color:#D8DFE8; /*boton no seleccionado*/
+    background: #FFFFFF; /*fondo encriptado*/
+}
+body{
+    background: #E5E5E5;
+}
+
+header{
+    background:#E5E5E5 ;
+    height: 100px;
+}
+
+header .logo{
+    margin: 40px 0 0 60px;
+}
+
+main{
+    width: 970px;
+    margin: 0 auto;
+}
+.secciones{
+    margin: 0 auto;
+}
+.seccion-input{
+    display: inline-block;
+    width: 60%;
+}
+
+.seccion-output{
+    background: #FFFFFF;
+    display: inline-block;
+    width: 30%;
+}
+
+footer{
+    background: #D8DFE8;
+    text-align: center;
+    margin: 40px auto 0;
+    padding: 40px 0 20px 0;
+}
+.copyright{
+    color: #343A40;
+    text-align: center;
+    margin: 20px;
+
+}
