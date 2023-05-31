@@ -1,17 +1,12 @@
-.btn{
-    color:#0A3871;
-    color: #E5E5E5;/*fondo*/
-    color: #343A40;/*letra gris*/
-    color:#D8DFE8; /*boton no seleccionado*/
-    background: #FFFFFF; /*fondo encriptado*/
-}
 body{
     background: #E5E5E5;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background:#E5E5E5 ;
     height: 100px;
+    width: auto;
 }
 
 header .logo{
@@ -19,26 +14,88 @@ header .logo{
 }
 
 main{
-    width: 970px;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
 .secciones{
-    margin: 0 auto;
+    width: 90%;
+    padding: 0 40px;
 }
 .seccion-input{
     display: inline-block;
-    width: 60%;
+    margin-left:80px;
+}
+.seccion-input textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0A3871;
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+    padding-top: 2em;
+    padding-left: 4em;
+    margin: 10px;
+    width: 500px;
+    height: 400px;
+}
+.seccion-input textarea::placeholder{
+    color: #0A3871;
+}
+
+p{
+    color:#343A40;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.btn{
+    color: #0A3871;
+    background: transparent;
+    border-color: #0A3871;
+    margin: 10px;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
+.btn:hover{
+    cursor:pointer;
+    background: #0A3871;
+    color: #FFFFFF;
+    font-weight: bold;
+    
 }
 
 .seccion-output{
     background: #FFFFFF;
-    display: inline-block;
-    width: 30%;
+    color: #343A40;
+    display:inline-block;
+    position: absolute;
+    width:300px;
+    height: 600px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgb(52, 58, 64,0.2);
 }
+
+.seccion-output-contenido{
+    padding: 50% 10%;
+}
+.seccion-output img{
+    width: 85%;
+}
+.seccion-output p:nth-child(2){ 
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-copiar{
+    display: none;
+    margin: 10px auto;
+}
+
 
 footer{
     background: #D8DFE8;
     text-align: center;
+    width: auto;
     margin: 40px auto 0;
     padding: 40px 0 20px 0;
 }
@@ -47,4 +104,9 @@ footer{
     text-align: center;
     margin: 20px;
 
+}
+
+@media screen and (max-width:1024px) {
+
+    
 }
